@@ -1,0 +1,43 @@
+{
+  "name": "node-find-files2",
+  "version": "0.0.4",
+  "description": "A promise-based Node Module for finding files by attributes. Originally developed to find files modified since a particular date",
+  "homepage": "",
+  "keywords": [
+    "find",
+    "files",
+    "recursive",
+    "mtime",
+    "last modified",
+    "nodejs",
+    "js",
+    "promise"
+  ],
+  "author": "Ilia Glushkov <eliasmamo@gmail.com>",
+  "devDependencies": {
+    "@types/chai": "^4.0.8",
+    "@types/mock-fs": "^3.6.30",
+    "@types/node": "^8.0.57",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "mock-fs": "^4.4.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.2"
+  },
+  "main": "./dist/node-find-files2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eliasmamo/node-find-files2"
+  },
+  "readmeFilename": "README.md",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha -r ts-node/register test/**/*.ts",
+    "build": "node ./node_modules/.bin/tsc"
+  },
+  "license": "BSD"
+}
