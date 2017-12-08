@@ -15,15 +15,15 @@
   ],
   "author": "Ilia Glushkov <eliasmamo@gmail.com>",
   "devDependencies": {
-    "@types/chai": "^4.0.8",
-    "@types/mock-fs": "^3.6.30",
-    "@types/node": "^8.0.57",
-    "@types/mocha": "^2.2.44",
-    "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "mock-fs": "^4.4.2",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.6.2"
+    "@types/chai": "4.0.8",
+    "@types/mock-fs": "3.6.30",
+    "@types/node": "8.0.57",
+    "@types/mocha": "2.2.44",
+    "chai": "4.1.2",
+    "mocha": "4.0.1",
+    "mock-fs": "4.4.2",
+    "ts-node": "3.3.0",
+    "typescript": "2.6.2"
   },
   "main": "./dist/node-find-files2",
   "repository": {
